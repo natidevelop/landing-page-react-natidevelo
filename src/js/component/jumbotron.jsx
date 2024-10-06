@@ -3,12 +3,12 @@ import React from "react";
 const Jumbotron = () => {
     return (
         <>
-            <div className="jumbotron bg-light container mt-3 pb-3">
-                <h1 className="display-4">Hello, world!</h1>
-                <p className="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+            <div className="jumbotron bg-primary container mt-3 pb-3">
+                <h1 className="display-4 text-dark">Adoptar Gatitos Sin Hogar </h1>
+                <p className="lead">Esta pagina ayuda a encontrar hogar para gatitos de la calle.</p>
                 <hr className="my-4" />
-                <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-                <a className="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                <p>Ayuda a un hermoso gatito a encontrar un hogar y dale la oportunidad de tener un hogar , dale amor , techo y comida .</p>
+                <a className="btn btn-primary btn-lg" href="#" role="button">Adopta</a>
             </div>
         </>
 
