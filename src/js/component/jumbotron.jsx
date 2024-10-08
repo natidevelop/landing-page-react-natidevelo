@@ -8,7 +8,7 @@ const Jumbotron = () => {
                 <p className="lead">Esta pagina ayuda a encontrar hogar para gatitos de la calle.</p>
                 <hr className="my-4" />
                 <p>Ayuda a un hermoso gatito a encontrar un hogar y dale la oportunidad de tener un hogar , dale amor , techo y comida .</p>
-                <a className="btn btn-primary btn-lg" href="#" role="button">Adopta</a>
+                <a className="btn btn-light" href="#" role="button">Adoptar</a>
             </div>
         </>
 

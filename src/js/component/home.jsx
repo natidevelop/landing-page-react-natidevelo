@@ -12,23 +12,28 @@ const Home = () => {
 	return (
 		<div className="text-center">
 			<Navbar />
-			<Jumbotron />
-			<div className="container text-center mt-3">
-				<div className="row">
-					<div className="col">
-						<Card />
-					</div>
-					<div className="col">
-						<Card />
-					</div>
-					<div className="col">
-						<Card />
-					</div>
+			<div className="container">
+				<Jumbotron />
+				<div className="d-flex flex-wrap justify-content-evenly  m-2">
 
+					<div className="col-md-3 col-lg-3 col-xl-3 col-12 p-1">
+						<Card />
+					</div>
+					<div className="col-md-3 col-lg-3 col-xl-3 col-12 p-1">
+						<Card />
+					</div>
+					<div className="col-md-3 col-lg-3 col-xl-3 col-12 p-1">
+						<Card />
+					</div>
+					<div className="col-md-3 col-lg-3 col-xl-3 col-12 p-1">
+						<Card />
+					</div>
 				</div>
 			</div>
-			<Footer />
-
+			<div>
+				<Footer />
+			</div>
+			
 		</div>
 	);
 };
